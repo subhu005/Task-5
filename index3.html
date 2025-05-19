@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Children's Novels Blog</title>
+  <link rel="stylesheet" href="style3.css" />
+</head>
+<body>
+  <header>
+    <h1>BLOG</h1>
+    <nav>
+      <button onclick="scrollToSection('home')">Home</button>
+      <button onclick="scrollToSection('about')">About</button>
+      <button onclick="scrollToSection('novels')">Novels</button>
+      <button onclick="scrollToSection('contact')">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="center">
+      <h2>Welcome to the Magical World of Children's Novels</h2>
+      <p>Delve into the colorful stories and enchanting characters of childhood literature.</p>
+      <img loading="lazy" src="https://icdn.isrgrajan.com/in/2023/03/childrens-literature-kids-reading-book.webp" alt="Welcome image" />
+    </section>
+
+    <section id="about" class="center">
+      <h2>About This Blog</h2>
+      <p>This blog is dedicated to the whimsical world of children's novels — from timeless classics to modern favorites.</p>
+      <img loading="lazy" src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/mw-children-classics-1523314428.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*" alt="About image" />
+    </section>
+
+    <section id="novels" class="center">
+      <h2>Featured Novels</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img loading="lazy" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18307_p_v8_an.jpg" alt="Matilda" />
+          <h3>Matilda</h3>
+          <p>By Roald Dahl — A tale of a genius girl with telekinetic powers.</p>
+        </article>
+        <article class="card">
+          <img loading="lazy" src="https://m.media-amazon.com/images/I/610WbF17M4L._AC_UF1000,1000_QL80_.jpg" alt="Charlotte's Web" />
+          <h3>Charlotte's Web</h3>
+          <p>By E.B. White — A beautiful story of friendship between a pig and a spider.</p>
+        </article>
+        <article class="card">
+          <img loading="lazy" src="https://m.media-amazon.com/images/I/917Ojv5eUHL._AC_UF1000,1000_QL80_.jpg" alt="Alice in Wonderland" />
+          <h3>Alice in Wonderland</h3>
+          <p>By Lewis Carroll — Journey down the rabbit hole into a world of wonder.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="center">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="center">
+    <p>© 2025 Bubblegum Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="script3.js"></script>
+</body>
+</html>
